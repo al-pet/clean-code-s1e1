@@ -35,7 +35,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .section__add-item {
@@ -132,7 +132,7 @@
 }
 
 .section__tasks-task>.section__input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete .button__image {
@@ -147,17 +147,18 @@
 
 /* Completed */
 .section__tasks.completed-tasks .section__label {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .section__tasks-task .section__input[type=text] {
-  display: none
+  display: none;
 }
 
 .section__tasks-task.edit-mode .section__input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .section__tasks-task.edit-mode .section__label {
