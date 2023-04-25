@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header__more_inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -95,7 +95,7 @@
 }
 
 /* New Task */
-.add_item {
+.add-item {
   display: block;
   margin: 0 0 20px;
 }
